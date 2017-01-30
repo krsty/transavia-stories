@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'nexa-bold';
+	src: url('../fonts/NexaBold.eot');
+	src: local('../fonts/Nexa Bold'), local('../fonts/NexaBold'),
+		url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NexaBold.woff') format('woff'),
+		url('../fonts/NexaBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'nexa';
+	src: url('../fonts/NexaLight.eot');
+	src: local('../fonts/Nexa Light'), local('../fonts/NexaLight'),
+		url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NexaLight.woff') format('woff'),
+		url('../fonts/NexaLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+
+.terug{
+    margin-top:1em;
+}
+.terug a{
+    color: #fff;
+    font-family: 'nexa-bold';
+    font-weight: bold;
+    font-style: normal;
+    font-size:1.5em;
+    margin-left:1em;
+    margin-top:1em;
+    text-decoration: none;
+    
+}
+
+img{
+    margin-top:1em;
+}
+
+body {
+    width:100%;
+    background-color:#00d66c;
+    padding:0;
+    margin:0;
+    color: #fff;
+    font-family: 'nexa-bold';
+    font-style: normal;
+    font-size:1em;
+}
+
+form{
+    
+     background-color:#00d66c;
+}
+
+form a{
+    color: #00d66c;
+    font-family: 'nexa';
+    font-style: normal;
+    font-size:1em;
+    text-align: center;
+    margin:0;
+}
+
+fieldset{
+   display:flex;
+    flex-direction: column;
+    width:25em;
+    text-align:center;
+    margin:auto;
+    
+
+
+    background-color:white;
+    border:none;
+    border-radius: 10px;
+}
+
+
+legend{
+    padding-top:2em;
+    margin:.5em;
+    color: #ff3268;
+    font-family: 'nexa-bold';
+    font-weight: bold;
+    font-style: normal;
+    font-size:2em;
+}
+
+label{
+    color: #00d66c;
+    font-family: 'nexa-bold';
+    font-weight: bold;
+    font-style: normal;
+    font-size:1.5em;
+    
+}
+
+input{
+    margin:0 auto;
+    width:80%;
+    padding:1em;
+    margin-top:1em;
+    margin-bottom:2em;
+    border:solid 1px #00d66c;
+    border-radius:.5rem;
+    transition:.2s;
+    
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input:focus{
+    width:90%;
+    transition:.2s;
+}
+
+ input:valid {
+    border:1px solid #1dfa8d;
+}
+
+input:focus:invalid{
+    border:1px solid #d60037;
+}
+
+
+fieldset a{
+    width:100%;
+    text-decoration: none;
+    line-height:1.5em;
+    padding-bottom:1.5em;
+    
+}
+
+fieldset a:hover{
+    text-decoration: underline;
+    
+}
+
+button{
+    font-family:"nexa-bold";
+    background-color:#ff3268;
+    border:none;
+    color: #fff;
+    font-size:1.2em;
+    
+    box-shadow:inset 0 -.1875em .0625em #ca2b55;
+    padding:.4375em 1.5em .5625em;
+    position:relative;
+    cursor: pointer;
+
+    border-radius: 1.25em;
+}
+
+button:hover{
+    background-color:#cb2450;
+}
+
+@media only screen and (max-width: 43.75em) {
+    fieldset{
+        width:16em;
+    }
+}
+

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="css/stylesheet.css" rel="stylesheet">
+
+	<title>Transavia Stories</title>
+	<link href="css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<section class="logo">
+			<a href="home.html"><img src="img/logo.png"></a>
+		</section>
+
+
+		<section class="account">
+			<img src="img/account.png">
+
+			<section class="account-content">
+				<img src="img/account-items.png">
+			</section>
+		</section>
+
+
+		<section class="opslaan">
+			<img src="img/verhalen.png">
+
+			<section class="opslaan-content">
+				<section class="opslaan-item">
+					<a href="#">Stoned</a> <a href="verhaal-stoned.html"><button class="opslaanbtn">Lees verder</button></a>
+				</section>
+
+
+				<section class="opslaan-item">
+					<a href="#">Kinderliedje</a> <a href="verhaal-kinderliedje.html"><button class="opslaanbtn">Lees verder</button></a>
+				</section>
+
+
+				<section class="opslaan-item">
+					<a href="#">Haiku</a> <a href="verhaal-haiku.html"><button class="opslaanbtn">Lees verder</button></a>
+				</section>
+			</section>
+		</section>
+	</header>
+
+
+	<section class="mobielnav">
+		<section class="dropdown">
+			<button class="dropbtn">Filters</button>
+
+			<section class="dropdown-content">
+				<ul>
+				    <h3>Categori&#235;n</h3>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="first_checkbox"> Populair</label>
+					</li>
+
+
+					<li>
+					   <label class="checkbox"><input class="cbox1" type="checkbox" value="second_checkbox"> Nieuw</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="third_checkbox"> Ongelezen</label>
+					</li>
+				</ul>
+
+
+				<ul>
+				    <h3>Genres</h3>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Drama</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Nieuws</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Sfeerverhaal</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Po&#235;zie</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Sport</label>
+					</li>
+				</ul>
+
+
+				<ul>
+				    <h3>Leesduur</h3>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Kort</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Medium</label>
+					</li>
+
+
+					<li>
+					    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Lang</label>
+					</li>
+				</ul>
+			</section>
+		</section>
+	</section>
+
+
+	<section class="search">
+		<input name="search" placeholder="Zoek auteur, titel, etc..." type="text">
+	</section>
+
+
+	<section class="mobilesearch">
+		<input name="search" placeholder="Zoek auteur, titel, etc..." type="text">
+	</section>
+	
+	
+	<!-- From: Smashing Book 5 — Real-Life RWD;     Building Advanced Responsive Modules With Flexbox by Zoe M. Gillenwater -->
+
+
+		<input data-interaction="toggle-menu" id="menu" type="checkbox"> 
+		<label for="menu" id="menulabel">Filters <i>&raquo;</i></label>
+
+
+
+	<nav>
+		<ul>
+            <h3>Categori&#235;n</h3>
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="first_checkbox"> Populair</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="second_checkbox"> Nieuw</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="third_checkbox"> Ongelezen</label>
+			</li>
+
+
+            <h3>Genres</h3>
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Drama</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Nieuws</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Sfeerverhaal</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Po&#235;zie</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Sport</label>
+			</li>
+
+
+            <h3>Leesduur</h3>
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Kort</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Medium</label>
+			</li>
+
+
+			<li>
+			    <label class="checkbox"><input class="cbox1" type="checkbox" value="fourth_checkbox"> Lang</label>
+			</li>
+		</ul>
+	</nav>
+
+
+	<main>
+		<a href="verhaal-stoned.html">
+			<li class="flex-card">
+				<img src="img/stoned.png">
+
+				<section class="flex-card-content">
+					<h2 class="flex-card-heading">Stoned</h2>
+
+
+					<p>Geplaatst op 13/01/2017</p>
+
+
+					<h3>Een stonede man haalt een boek van de bibliotheek.</h3>
+
+
+					<section class="flex-card-stats">
+						<img src="img/stats-1.png">
+					</section></a>
+				</section>
+			</li>
+        </a>
+
+			
+
+        <a href="verhaal-haiku.html">
+			<li class="flex-card">
+				<img src="img/haiku.png">
+
+				<section class="flex-card-content">
+					<h2 class="flex-card-heading">Haiku</h2>
+
+
+					<p>Geplaatst op 22/01/2017</p>
+
+
+					<h3>Kort en krachtig gedicht.</h3>
+
+
+					<section class="flex-card-stats">
+						<img src="img/stats-2.png">
+					</section></a>
+				</section>
+			</li>
+        </a>
+
+        <a href="verhaal-kinderliedje.html">
+			<li class="flex-card">
+				<img src="img/kinderliedje.png">
+
+				<section class="flex-card-content">
+					<h2 class="flex-card-heading">Kinderliedje</h2>
+
+
+					<p>Geplaatst op 20/12/2016</p>
+
+
+					<h3>Een vrolijk liedje over naar de bibliotheek gaan.</h3>
+
+
+					<section class="flex-card-stats">
+						<img src="img/stats-3.png">
+					</section></a>
+				</section>
+			</li>
+        </a>
+
+        <a href="#">
+			<li class="flex-card">
+				<img src="img/hardboiled.png">
+
+				<section class="flex-card-content">
+					<h2 class="flex-card-heading">Hardboiled</h2>
+
+
+					<p>Geplaatst op 05/01/2017</p>
+
+
+					<h3>Een fikse koppijn na een avond feesten.</h3>
+
+
+					<section class="flex-card-stats">
+						<img src="img/stats-4.png">
+					</section></a>
+				</section>
+			</li>
+        </a>
+
+        <a href="#">
+			<li class="flex-card">
+				<img src="img/droom.png">
+
+				<section class="flex-card-content">
+					<h2 class="flex-card-heading">Droom</h2>
+
+
+					<p>Geplaatst op 02/01/2017</p>
+
+
+					<h3>Een droom waar in alles kan gebeuren.</h3>
+
+
+					<section class="flex-card-stats">
+						<img src="img/stats-5.png">
+					</section></a>
+				</section>
+			</li>
+        </a>
+
+        <a href="#">
+			<li class="flex-card">
+				<img src="img/verliefd.png">
+
+				<section class="flex-card-content">
+					<h2 class="flex-card-heading">Verliefd</h2>
+
+
+					<p>Geplaatst op 14/01/2017</p>
+
+
+					<h3>Nadenkend over haar gevoelens voor het gezin.</h3>
+
+
+					<section class="flex-card-stats">
+						<img src="img/stats-6.png">
+					</section></a>
+				</section>
+			</li>
+        </a>
+	</main>
+	
+</body>
+</html>
